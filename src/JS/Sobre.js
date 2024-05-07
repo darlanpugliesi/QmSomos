@@ -1,13 +1,9 @@
 import React from 'react';
-import '../css/QmSomos.css';
-import Layout from './Layout';
-import Footer from './footer';
+import '../css/Sobre.css';
 
-
-function QmSomos() {
+function Sobre() {
     return (
-        <Layout className='footer'>
-            <div className='QmSomos'>
+            <div className='Sobre'>
                 <h1 className='titulo'>Nosso Objetivo</h1>
                 <div className='subtitulo'>
                     <p>Este projeto, desenvolvido por estudantes do ensino médio técnico, tem como objetivo combater e prestar suporte às artistas que têm seus trabalhos considerados como inferiores, tanto em divulgação quanto em relevância diante das exposições de autoria majoritariamente masculina.<br/><br></br>
@@ -21,16 +17,17 @@ function QmSomos() {
                     <img className='imgmacacoco' src={require('../assets/macaco.png')} width={500}></img>
                 </div>
                 <div className='containerblack'>
-
                     <img className='imgmulherubanda' src={require('../assets/Mulher - quem somos.png')}></img>
                     <img className='flor' src={require('../assets/flor-quem somos.png')}></img>
+                </div>
                     <div className='lowcontainer'>
                         <h1 className='lowtitulo'>Inspirações</h1>
+                        <div className='descContainer'>
+                            <h3 className='name'>GUERRILLA GIRLS</h3>
+                        </div>
                     </div>
-                </div>
              </div>
-            </Layout>
     )
 }
 
-export default QmSomos;
+export default Sobre;

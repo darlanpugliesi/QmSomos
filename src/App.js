@@ -11,20 +11,20 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Cadastro from './JS/Cadastro.js'
 import Login from './JS/Login.js'
 import Home from './JS/Home.js'
-import QmSomos from './JS/QmSomos.js'
+import Sobre from './JS/Sobre.js'
 import Loja from './JS/Loja.js'
 
 function App() {
   return (
-    <Router>
-        <header>
+    <header>
+        <Router>
           <div className="App">
             <Navbar/>
             <Logo className="App-logo"/>
           </div>
           <Routes>
             <Route exact path="/" element={<Home/>} />
-            <Route exact path="/Sobre" element={<QmSomos/>} />
+            <Route exact path="/Sobre" element={<Sobre/>} />
             <Route exact path="/Suporte" element={<BotaoSignUp/>} />
             <Route exact path="/Comunidade" element={<BotaoSignUp/>} />
             <Route exact path="/cadastro" element={<Cadastro/>} />
@@ -33,10 +33,10 @@ function App() {
             </Routes>
 
           <div>
-            
+            <Footer className='footer'/>
           </div>
+        </Router>
       </header>
-    </Router>
   );
 }
 

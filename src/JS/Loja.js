@@ -4,9 +4,7 @@ import Layout from "./Layout";
 
 function Loja() {
     return (
-        <Layout>
             <h1>LOJA AQUI</h1>
-        </Layout>
     )
 }
 

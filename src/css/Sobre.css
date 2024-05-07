@@ -32,39 +32,47 @@
 
 .imgmulherubanda {
     position: relative;
-    float: right;
-    left: 500px;
-    top: 20px;
+
+    left: 42.1cm;
+ 
 }
 
 .flor {
     position: relative;
-    top: 100px;    
+
+    right: 279px;
 }
 
 .lowtitulo {
     font-family: "Homenaje", sans-serif;
     color: #757882;
     font-size: 80px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    left: 30px;
     
 }
 
 .containerblack {
     position: relative;
-    top: 200px;
+    top: 219px;
 }
 
 .lowcontainer {
+    display: flex;
+    justify-content: center;
     position: relative;
-    left: 30px;
-    float: right;
+    bottom: 400px;;
+    
 }
 
 .footer {
     position: relative;
-    top: 597px;
+    top: 21px;
+}
+
+.descContainer {
+    font-family: 'Roboto';
+    color: #757882;
+    position: relative;
+    top: 170px;
+    right: 400px;
+
 }

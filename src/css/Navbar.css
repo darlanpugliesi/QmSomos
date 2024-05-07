@@ -29,7 +29,7 @@
     text-decoration: none;
     padding: 10px;
     border-radius: 30px;
-    transition: 0.3s;
+    transition: 0.1s;
   }
   
   .nav-link:hover {

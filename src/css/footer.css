@@ -2,13 +2,12 @@
     background-color: coral;
     background-repeat: no-repeat;
     align-items: center;
-    justify-content: center;
     font-family: 'Roboto';
-    margin-top: -300px;
     padding: 0.7%;
     line-height: 2;
     position: relative;
-  top: 20px;
+    bottom: 200px;
+    
 }
 
 .footer-container {
@@ -17,6 +16,8 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  position: relative;
+  bottom: 20px;
   
 }
 
@@ -27,7 +28,7 @@
 .footer-heading {
   position: relative;
   font-size: 24px;
-  right: 85px;
+  right: 80px;
   margin-bottom: 20px;
 }
 

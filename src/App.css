@@ -38,5 +38,9 @@
   top: -60px;
   left: 1250px;
   z-index: 999;
-
 } 
+
+.footer {
+  position: relative;
+  bottom: 500px
+}
