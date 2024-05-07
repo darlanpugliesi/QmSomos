@@ -1,0 +1,70 @@
+.titulo {
+    position: relative;
+    font-family: "Homenaje", sans-serif;
+    font-size: 80px;
+    padding-left: 52px;
+    color: #757882;
+}
+
+.subtitulo {
+    position: relative;
+    font-family: "RocknRoll One", sans-serif;
+    color: #757882;
+    padding-left: 60px;
+    width: 60%;
+    font-size: 20px;
+    
+
+}
+
+.imgmacaco {
+    position: relative;
+    float: right;
+    bottom: 300px;
+    right: 65px;
+    
+}
+
+.imgmacaco img {
+    box-shadow: 0px 4px 12px black;
+    border-radius: 30px;
+}
+
+.imgmulherubanda {
+    position: relative;
+    float: right;
+    left: 500px;
+    top: 20px;
+}
+
+.flor {
+    position: relative;
+    top: 100px;    
+}
+
+.lowtitulo {
+    font-family: "Homenaje", sans-serif;
+    color: #757882;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 30px;
+    
+}
+
+.containerblack {
+    position: relative;
+    top: 200px;
+}
+
+.lowcontainer {
+    position: relative;
+    left: 30px;
+    float: right;
+}
+
+.footer {
+    position: relative;
+    top: 597px;
+}

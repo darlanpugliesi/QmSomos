@@ -1,0 +1,38 @@
+.navbar {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+    
+  }
+  
+  .navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-item {
+    margin-right: 30px;
+    font-size: 25px;
+    font-style: bold;
+  }
+  
+  .nav-link {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px;
+    transition: 0.3s;
+  }
+  
+  .nav-link:hover {
+    background-color: #141414;
+    color: #fff;
+  }

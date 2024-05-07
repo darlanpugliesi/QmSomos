@@ -1,0 +1,108 @@
+.form-titulo {
+    position: relative;
+    font-family: Light;
+    text-align: center;
+    color: #333;
+    bottom: 30px;
+}
+
+.Botao-Google {
+    position: relative;
+    display: block;
+    width: 80%;
+    margin: 0 auto 30px;
+    background-color: transparent;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    top: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.form-login {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 4%;
+    box-shadow: 0px 4px 4px 0px #727070;
+    margin: 50px auto;
+    padding: 50px;
+    text-align: center;
+    z-index: 1;
+    margin-bottom: 560px; 
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    border-radius: 5%;
+}
+
+input {
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.form-username {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    bottom: 10px;
+    top: 10px;
+}
+
+.form-password {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    bottom: 10px;
+    top: 10px;
+}
+
+.form-submit {
+    position: relative;
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    width: 150px;
+    height: 44px;
+    align-self: center;
+    font-size: 16px;
+    border-radius: 9px;
+    bottom: 85px;
+    transition: border-color 0.5s;
+}
+
+.form-submit:hover {
+    border-color: grey;
+}
+
+.esqueceu-senha {
+    position:relative;
+    right: 137px;
+    bottom: 47px;
+    color: #010048;
+    font-size: calc(12px);
+    cursor: pointer;
+}
+
+.error-message {
+    position: relative;
+    color: #e2031a;
+    top: -132px;
+    font-size: calc(18px);
+  }
+  
+  .Google-Imagem{
+    width: 45px;
+    position: relative;
+    top: 15px;
+    right:15px
+  }
+    
