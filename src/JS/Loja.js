@@ -1,6 +1,5 @@
 import React from "react";
 import '../css/Loja.css';
-import Layout from "./Layout";
 
 function Loja() {
     return (

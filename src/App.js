@@ -31,10 +31,7 @@ function App() {
             <Route exact path="/login" element={<Login/>} />
             <Route exact path="/loja" element={<Loja/>} />
             </Routes>
-
-          <div>
-            <Footer className='footer'/>
-          </div>
+        <Footer/>
         </Router>
       </header>
   );

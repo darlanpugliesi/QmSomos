@@ -9,10 +9,12 @@
 .subtitulo {
     position: relative;
     font-family: "RocknRoll One", sans-serif;
-    color: #757882;
+    color: #0C0400;
     padding-left: 60px;
     width: 60%;
-    font-size: 20px;
+    font-size: 23px;
+    opacity: 67%;
+    
     
 
 }
@@ -20,8 +22,8 @@
 .imgmacaco {
     position: relative;
     float: right;
-    bottom: 300px;
-    right: 65px;
+    bottom: 340px;
+    right: 30px;
     
 }
 
@@ -32,34 +34,35 @@
 
 .imgmulherubanda {
     position: relative;
-
-    left: 42.1cm;
+    left: 84.7%;
  
 }
 
 .flor {
     position: relative;
-
-    right: 279px;
+    right: 15.5%;
 }
 
 .lowtitulo {
     font-family: "Homenaje", sans-serif;
     color: #757882;
     font-size: 80px;
+    position: relative;
+    left: 10%;
     
 }
 
 .containerblack {
     position: relative;
-    top: 219px;
+    top: 221px;
 }
 
 .lowcontainer {
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 400px;;
+    bottom: 400px;
+    left: 16%;
     
 }
 
@@ -70,9 +73,21 @@
 
 .descContainer {
     font-family: 'Roboto';
-    color: #757882;
+    width: 50%;
+    color: #0C0400;
+    opacity: 67%;
     position: relative;
-    top: 170px;
-    right: 400px;
+    top: 135px;
+    right: 22%;
+    text-transform: uppercase;
+}
 
+.name {
+    font-size: 30px;
+}
+.subname {
+    font-size: 20px;
+    position: relative;
+    
+    
 }

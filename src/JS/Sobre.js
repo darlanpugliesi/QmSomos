@@ -14,7 +14,7 @@ function Sobre() {
                 </div>
 
                 <div className='imgmacaco'>
-                    <img className='imgmacacoco' src={require('../assets/macaco.png')} width={500}></img>
+                    <img className='imgmacacoco' src={require('../assets/macaco.png')} width={600}></img>
                 </div>
                 <div className='containerblack'>
                     <img className='imgmulherubanda' src={require('../assets/Mulher - quem somos.png')}></img>
@@ -24,6 +24,11 @@ function Sobre() {
                         <h1 className='lowtitulo'>Inspirações</h1>
                         <div className='descContainer'>
                             <h3 className='name'>GUERRILLA GIRLS</h3>
+                            <h4 className='subname'>Um coletivo de artistas femininas que utiliza a arte para promover a igualdade de gênero nas artes visuais.</h4>
+                            <h3 className='name'>Women Artists Archives National Directory (WAAND)</h3>
+                            <h4 className='subname'>Uma base de dados online que oferece informações sobre artistas mulheres, especialmente aquelas que contribuíram para o movimento feminista.</h4>
+                            <h3 className='name'>The Art History Babes</h3>
+                            <h4 className='subname'>Um podcast e plataforma online dedicada a tornar a história da arte mais acessível e inclusiva, incluindo um foco em artistas sub-representadas.</h4>
                         </div>
                     </div>
              </div>
