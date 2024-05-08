@@ -27,10 +27,10 @@ function Footer() {
         <div className="footer-section">
           <h3 className="footer-heading3">Redes Sociais</h3>
           <ul className="social-links">
-            <li><a href="https://facebook.com"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-            <li><a href="https://twitter.com"><FontAwesomeIcon icon={faTwitter} /></a></li>
-            <li><a href="https://instagram.com"><FontAwesomeIcon icon={faInstagram} /></a></li>
-            <li><a href="https://linkedin.com"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+            <li><a href="https://facebook.com" data-testid="facebook-link"><FontAwesomeIcon icon={faFacebookF} /></a></li>
+            <li><a href="https://twitter.com" data-testid="twitter-link"><FontAwesomeIcon icon={faTwitter} /></a></li>
+            <li><a href="https://instagram.com" data-testid="instagram-link"><FontAwesomeIcon icon={faInstagram} /></a></li>
+            <li><a href="https://linkedin.com" data-testid="linkedin-link"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
           </ul>
         </div>
       </div>
