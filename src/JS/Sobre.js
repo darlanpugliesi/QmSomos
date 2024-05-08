@@ -8,8 +8,8 @@ function Sobre() {
                 <div className='subtitulo'>
                     <p>Este projeto, desenvolvido por estudantes do ensino médio técnico, tem como objetivo combater e prestar suporte às artistas que têm seus trabalhos considerados como inferiores, tanto em divulgação quanto em relevância diante das exposições de autoria majoritariamente masculina.<br/><br></br>
                     Portanto, com esta plataforma pretendemos sanar 3 problemáticas:<br></br>
-    A falta de espaço para que mulheres mostrem seu trabalho e sejam levadas a sério;
-    A falta de suporte tanto social quanto técnico para que estas possam viver da exposição artística
+    A falta de espaço para que mulheres mostrem seu trabalho e sejam levadas a sério;<br></br>
+    A falta de suporte tanto social quanto técnico para que estas possam viver da exposição artística;<br></br>
     A ausência de uma comunidade de apoio, no sentido profissional e pessoal, para que possamos lhes prestar o máximo de apoio possível.</p>
                 </div>
 

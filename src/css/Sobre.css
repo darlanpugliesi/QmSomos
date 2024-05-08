@@ -84,10 +84,11 @@
 
 .name {
     font-size: 30px;
+    z-index: 1;
 }
 .subname {
     font-size: 20px;
-    position: relative;
+    z-index: 1;
     
     
 }
