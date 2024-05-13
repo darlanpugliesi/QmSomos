@@ -1,12 +1,13 @@
 .navbar {
-    background-color: transparent;
+    background-color: orange;
     display: flex;
     align-items: center;
-    justify-content: center;
     height: 60px;
     padding: 0 20px;
     position: relative;
     z-index: 2;
+    margin-bottom: 205px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
     
   }
   
@@ -21,7 +22,9 @@
   .nav-item {
     margin-right: 30px;
     font-size: 25px;
+    position: relative;
     font-style: bold;
+    left: 930px;
   }
   
   .nav-link {
