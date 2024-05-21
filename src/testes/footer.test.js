@@ -1,40 +1,43 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Footer from './footer';
+import Footer from '../JS/footer';
+import '@testing-library/jest-dom/extend-expect';
 
-describe('Footer component', () => {
-  test('renders footer text correctly', () => {
-    const { getByText } = render(<Router><Footer /></Router>);
-    const footerText = getByText(/Woman Space é uma plataforma digital que visa dar destaque à arte feminina/i);
-    expect(footerText).toBeInTheDocument();
-  });
+test('renders Footer component', () => {
+  render(
+    <Router>
+      <Footer />
+    </Router>
+  );
 
-  test('renders footer links correctly', () => {
-    const { getByText } = render(<Router><Footer /></Router>);
-    const homeLink = getByText(/Home/i);
-    const lojaLink = getByText(/Loja/i);
-    const sobreLink = getByText(/Sobre/i);
-    const suporteLink = getByText(/Suporte/i);
-    const comunidadeLink = getByText(/Comunidade/i);
+  expect(screen.getByRole('heading', { name: /Woman Space/i })).toBeInTheDocument();
 
-    expect(homeLink).toHaveAttribute('href', '/');
-    expect(lojaLink).toHaveAttribute('href', '/loja');
-    expect(sobreLink).toHaveAttribute('href', '/Sobre');
-    expect(suporteLink).toHaveAttribute('href', '/Suporte');
-    expect(comunidadeLink).toHaveAttribute('href', '/Comunidade');
-  });
+  expect(screen.getByText(/Woman Space é uma plataforma digital que visa dar destaque à arte feminina/i)).toBeInTheDocument();
 
-  test('renders social links correctly', () => {
-    const { getByTestId } = render(<Router><Footer /></Router>);
-    const facebookLink = getByTestId('facebook-link');
-    const twitterLink = getByTestId('twitter-link');
-    const instagramLink = getByTestId('instagram-link');
-    const linkedinLink = getByTestId('linkedin-link');
+  expect(screen.getByRole('link', { name: /Home/i })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Loja/i })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Sobre/i })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Comunidade/i })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Suporte/i })).toBeInTheDocument();
 
-    expect(facebookLink).toHaveAttribute('href', 'https://facebook.com');
-    expect(twitterLink).toHaveAttribute('href', 'https://twitter.com');
-    expect(instagramLink).toHaveAttribute('href', 'https://instagram.com');
-    expect(linkedinLink).toHaveAttribute('href', 'https://linkedin.com');
-  });
+  expect(screen.getByTestId('facebook-link')).toBeInTheDocument();
+  expect(screen.getByTestId('twitter-link')).toBeInTheDocument();
+  expect(screen.getByTestId('instagram-link')).toBeInTheDocument();
+  expect(screen.getByTestId('linkedin-link')).toBeInTheDocument();
+
+  expect(screen.getByText(/© 2024 Woman Space. Todos os direitos reservados./i)).toBeInTheDocument();
+});
+
+test('social media links have correct href', () => {
+  render(
+    <Router>
+      <Footer />
+    </Router>
+  );
+
+  expect(screen.getByTestId('facebook-link')).toHaveAttribute('href', 'https://facebook.com');
+  expect(screen.getByTestId('twitter-link')).toHaveAttribute('href', 'https://twitter.com');
+  expect(screen.getByTestId('instagram-link')).toHaveAttribute('href', 'https://instagram.com');
+  expect(screen.getByTestId('linkedin-link')).toHaveAttribute('href', 'https://linkedin.com');
 });

@@ -1,26 +1,23 @@
 import React from 'react';
-import { render } from '@testing-library/react';
-import Texto1 from '../JS/Texto1';
-import Imagem from '../JS/Imagem';
+import { render, screen } from '@testing-library/react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Home from '../JS/Home.js';
+import '@testing-library/jest-dom/extend-expect';
 
-test('renders text correctly', () => {
-    const { getByText } = render(<Texto1 />);
-    const textElement1 = getByText('Seu espaço para');
-    const textElement2 = getByText('explorar, criar e');
-    const textElement3 = getByText('compartilhar -');
-    const textElement4 = getByText('Woman Space.');
-    
-    expect(textElement1).toBeInTheDocument();''
-    expect(textElement2).toBeInTheDocument();
-    expect(textElement3).toBeInTheDocument();
-    expect(textElement4).toBeInTheDocument();
-});
+test('renders Home component', () => {
+  render(
+    <Router>
+      <Home />
+    </Router>
+  );
 
+  expect(screen.getByAltText(/mulher/i)).toBeInTheDocument();
 
-test('renders image correctly', () => {
-  
-  const { getByAltText } = render(<Imagem  />);
-  const imageElement = getByAltText('mulher');
-  expect(imageElement).toBeInTheDocument();
-  expect(imageElement).toHaveAttribute('src', '../JS/');
+  expect(screen.getByText(/Seu espaço para/i)).toBeInTheDocument();
+  expect(screen.getByText(/explorar, criar e/i)).toBeInTheDocument();
+  expect(screen.getByText(/compartilhar -/i)).toBeInTheDocument();
+  expect(screen.getByText(/Woman Space./i)).toBeInTheDocument();
+
+  expect(screen.getByRole('button', { name: /Login/i })).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: /Cadastro/i })).toBeInTheDocument();
 });
