@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function BotaoLogin(){
     return(
        <div className='BotaoLogin'>
-            <button class="yellow-button-login"><Link to="/login" className="cad-link">Login</Link></button>
+            <button class="yellow-button-login"><Link to="/login" className="cad-link">Vamos começar!</Link></button>
         </div>
     )
 }

@@ -9,18 +9,18 @@
     font-family: "Homenaje", sans-serif;
     font-size: 80px;
     padding-left: 52px;
-    color: #757882;
+    color: #050505;
 }
 
 .subtitulo {
     position: relative;
-    font-family: "RocknRoll One", sans-serif;
-    color: #0C0400;
-    padding-left: 60px;
-    width: 60%;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #000000;
+    padding-left: 60px; 
     font-size: 23px;
     opacity: 67%;
-
+    line-height: 1;
+    word-wrap: break-word;
 }
 
 .imgmacaco {
@@ -50,7 +50,7 @@
 
 .lowtitulo {
     font-family: "Homenaje", sans-serif;
-    color: #757882;
+    color: #000000;
     font-size: 80px;
     position: relative;
     left: 10%;

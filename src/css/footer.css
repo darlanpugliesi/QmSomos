@@ -1,5 +1,5 @@
 .footer {
-    background-color: coral;
+    background: rgb(0, 0, 0);
     background-repeat: no-repeat;
     align-items: center;
     font-family: 'Roboto';
@@ -7,7 +7,7 @@
     line-height: 2;
     position: relative;
     bottom: 200px;
-    margin: 0 auto;
+    margin: -20px;
     
 }
 

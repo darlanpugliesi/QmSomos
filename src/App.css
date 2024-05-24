@@ -25,17 +25,44 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(45px + 2vmin);
-  top: -720px;
-  left: 480px;
-  font-family: 'Roboto';
+  font-size: calc(85px + 2vmin);
+  top: -620px;
+  left: 180px;
+  font-weight:700;
+  font-family: "Be Vietnam Pro", sans-serif;
   line-height: 0.5;
   z-index: 50;
+  color: #80BB04;
 }
 
 .Imagem{
   position: relative;
-  top: -60px;
-  left: 68.5%;
+  top: 30px;
+  left: 50%;
   z-index: 999;
 } 
+.textoho1{
+  font-size: 35px;
+  font-weight: 200px;
+  max-width: 800px;
+  position: relative;
+  bottom: 650px;
+  color: #93B73E;
+  left: 178px;
+}
+
+.cadastro {
+  position: relative;
+  bottom: 470px;
+  left: 470px;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.nocadastro {
+  position: relative;
+  bottom: 470px;
+  left: 484x;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+

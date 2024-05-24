@@ -1,14 +1,11 @@
 .navbar {
-    background-color: orange;
+      
     display: flex;
     align-items: center;
     height: 60px;
     padding: 0 20px;
     position: relative;
-    z-index: 2;
-    margin-bottom: 205px;
-    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
-    
+    z-index: 2;    
   }
   
   .navbar-nav {
@@ -24,11 +21,12 @@
     font-size: 25px;
     position: relative;
     font-style: bold;
-    left: 930px;
+    left: 730px;
   }
   
   .nav-link {
-    color: #000000;
+    color: #6E9325;
+    font-weight: 600;
     text-decoration: none;
     padding: 10px;
     border-radius: 30px;

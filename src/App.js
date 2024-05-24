@@ -4,8 +4,7 @@ import React from 'react'
 import { ReactComponent as Logo } from './assets/logo.svg'
 import Texto1 from './JS/Texto1.js'
 import BotaoLogin from './JS/BotaoLogin.js'
-import BotaoSignUp from './JS/BotaoSignUp.js'
-import Footer from './JS/footer.js'
+
 import Imagem from './JS/Imagem.js'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Cadastro from './JS/Cadastro.js'
@@ -26,14 +25,12 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Home/>} />
             <Route exact path="/Sobre" element={<Sobre/>} />
-            <Route exact path="/Suporte" element={<BotaoSignUp/>} />
-            <Route exact path="/Comunidade" element={<BotaoSignUp/>} />
             <Route exact path="/cadastro" element={<Cadastro/>} />
+            <Route exact path="/Contato" element={<Comunidade/>} />
             <Route exact path="/login" element={<Login/>} />
             <Route exact path="/loja" element={<Loja/>} />
-            <Route exact path="/Comunidade" element={<Comunidade/>} />
           </Routes>
-        <Footer/>
+
         </Router>
       </header>
   );

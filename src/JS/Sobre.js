@@ -6,30 +6,16 @@ function Sobre() {
             <div className='Sobre'>
                 <h1 className='titulo'>Nosso Objetivo</h1>
                 <div className='subtitulo'>
-                    <p>Este projeto, desenvolvido por estudantes do ensino médio técnico, tem como objetivo combater e prestar suporte às artistas que têm seus trabalhos considerados como inferiores, tanto em divulgação quanto em relevância diante das exposições de autoria majoritariamente masculina.<br/><br></br>
-                    Portanto, com esta plataforma pretendemos sanar 3 problemáticas:<br></br>
-    A falta de espaço para que mulheres mostrem seu trabalho e sejam levadas a sério;<br></br>
-    A falta de suporte tanto social quanto técnico para que estas possam viver da exposição artística;<br></br>
-    A ausência de uma comunidade de apoio, no sentido profissional e pessoal, para que possamos lhes prestar o máximo de apoio possível.</p>
-                </div>
+                    <p>No Cantinho da Fruta, somos apaixonados por proporcionar uma experiência única e deliciosa a cada cliente que entra em nossa loja. Desde a nossa inauguração, nos dedicamos a oferecer uma seleção impecável de frutas frescas, provenientes dos melhores pomares locais e regiões produtoras.</p>
 
-                <div className='imgmacaco'>
-                    <img className='imgmacacoco' src={require('../assets/macaco.png')} width={600}></img>
-                </div>
-                <div className='containerblack'>
-                    <img className='imgmulherubanda' src={require('../assets/Mulher - quem somos.png')}></img>
-                    <img className='flor' src={require('../assets/flor-quem somos.png')}></img>
-                </div>
-                    <div className='lowcontainer'>
-                        <h1 className='lowtitulo'>Inspirações</h1>
-                        <div className='descContainer'>
-                            <h3 className='name'>GUERRILLA GIRLS</h3>
-                            <h4 className='subname'>Um coletivo de artistas femininas que utiliza a arte para promover a igualdade de gênero nas artes visuais.</h4>
-                            <h3 className='name'>Women Artists Archives National Directory (WAAND)</h3>
-                            <h4 className='subname'>Uma base de dados online que oferece informações sobre artistas mulheres, especialmente aquelas que contribuíram para o movimento feminista.</h4>
-                            <h3 className='name'>The Art History Babes</h3>
-                            <h4 className='subname'>Um podcast e plataforma online dedicada a tornar a história da arte mais acessível e inclusiva, incluindo um foco em artistas sub-representadas.</h4>
-                        </div>
+                    <p>Acreditamos que cada mordida em uma fruta do Cantinho da Fruta é uma celebração da natureza e da saúde. É por isso que escolhemos a dedo cada uma das frutas que vendemos, garantindo que apenas as mais suculentas, maduras e saborosas cheguem às nossas prateleiras.</p>
+
+                    <p>Nosso compromisso com a qualidade vai além da seleção de produtos. No Cantinho da Fruta, valorizamos a relação com nossos clientes e a comunidade. Estamos aqui não apenas para fornecer frutas, mas para compartilhar conhecimento, inspirar escolhas saudáveis e promover um estilo de vida equilibrado.</p>
+
+                    <p>Em cada visita ao Cantinho da Fruta, você encontrará uma variedade incrível de frutas frescas, desde as clássicas até as mais exóticas. Quer você esteja procurando por uma maçã crocante, um abacate maduro ou uma pitaya colorida, temos tudo para satisfazer o seu paladar e suas necessidades nutricionais.</p>
+                    
+                    <p>Além disso, nos orgulhamos de nossa preocupação com o meio ambiente. Adotamos práticas sustentáveis em todo o nosso processo, desde a seleção até a embalagem, visando sempre a redução do desperdício e o respeito ao nosso planeta.</p>
+                    <p>No Cantinho da Fruta, você não está apenas comprando frutas, está se juntando a uma comunidade que valoriza a saúde, o bem-estar e o prazer de viver bem. Venha nos visitar e descubra o que torna o Cantinho da Fruta tão especial. Estamos ansiosos para recebê-lo e compartilhar a alegria das frutas frescas!</p>
                     </div>
              </div>
     )
