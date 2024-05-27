@@ -1,0 +1,151 @@
+.loja {
+    height: 1177px;
+}
+
+
+.color-title {
+    background-color:#fdb932;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    position: relative;
+    bottom: 160px;
+    width: 1200px;
+    left: 12.5%;
+    height: 60px;
+}
+
+.titulo-page {
+    font-family: "Yeseva One", serif;
+    position: relative;
+    bottom: 38px;
+    font-size: 55px;
+}
+
+.setinha2 {
+    float: right;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.setinha1 {
+    cursor: pointer;
+}
+
+.Pedro {
+    background-color: #fdb932;
+    max-width: 60%;
+    margin: 0 auto;
+    font-family: "Work Sans", sans-serif;
+    white-space: nowrap ;
+    height: 900px;
+    position: relative;
+    bottom: 130px;
+    
+}
+
+.imgcontainer1, .imgcontainer2, .imgcontainer3 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    position: relative;
+    left: 165px;
+    top: 20px;
+
+}
+
+.titulos1, .titulos2, .titulos3 {
+    display: flex;
+    flex-direction: row;
+    gap: 185px;
+    position: relative;
+    left: 170px;
+    bottom: 40px;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.imagem2 {
+    background-color: white;
+    padding: 5px 5px 50px 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.sub-titulos1 {
+    display: flex;
+    flex-direction: row;
+    gap: 104px;
+    position: relative;
+    left: 170px;
+    bottom: 67px;
+    font-size: 13px;
+}
+
+.sub-titulos2 {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    position: relative;
+    left: 170px;
+    bottom: 67px;
+    font-size: 13px;
+}
+
+.sub-titulos3 {
+    display: flex;
+    flex-direction: row;
+    gap: 122px;
+    position: relative;
+    left: 170px;
+    bottom: 67px;
+    font-size: 13px;
+}
+
+.sub-titulos1, .sub-titulos2, .sub-titulos3{
+    z-index: 2;
+}
+
+.sub-titulo3-1{
+    position: relative;
+    right: 50px;
+}
+
+.titulo3-1{
+    position: relative;
+    right: 102px;
+}
+
+.sub-titulo2-1, .titulo2-1{
+    position: relative;
+    right: 20px;
+}
+
+.sub-titulo1-1{
+    position: relative;
+    right: 28px;
+}
+
+.titulo1-1{
+    position: relative;
+    left: 28px;
+}
+
+.titulo2-2{
+    position: relative;
+    right: 15px;
+}
+
+.mulher-loja {
+    position: relative;
+    left: 64%;
+}
+
+.flor {
+    position: relative;
+    left: 0.03%;
+}
+
+.low-container {
+    position: relative;
+    bottom: 240px;
+}

@@ -1,0 +1,58 @@
+.titulo-cadastro {
+    position: relative;
+    font-family: 'Roboto';
+    font-size: 28px;
+    text-align: center;
+    color: #333;
+    bottom: 30px;
+}
+
+.form-cadastro {
+    position: relative;
+    width: 400px;
+    top: 50px;
+    padding: 50px;
+    background-color: transparent;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+    margin: 50px auto;
+    margin-bottom: 650px;
+    z-index: 1;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-item {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-submit-cadastro {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    left: 140px;
+}
+
+.form-submit-cadastro:hover {
+    background-color: #444;
+}
+
+.error-message {
+    color: #e2031a;
+    font-size: 14px;
+    margin-top: 10px;
+}

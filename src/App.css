@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 3;
+}
+
+
+.textinho {
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(45px + 2vmin);
+  top: -720px;
+  left: 480px;
+  font-family: 'Roboto';
+  line-height: 0.5;
+  z-index: 50;
+}
+
+@media screen and (max-width: 1200px) {
+  .textinho {
+      font-size: calc(40px + 2vmin);
+      top: -100px;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .textinho {
+      font-size: calc(35px + 2vmin);
+      top: -80px;
+      left: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .textinho {
+      font-size: calc(30px + 2vmin);
+      top: -60px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .textinho {
+      font-size: calc(25px + 2vmin);
+      top: -40px;
+  }
+}
+
+.Imagem{
+  position: relative;
+  top: -60px;
+  left: 68.5%;
+  z-index: 999;
+  max-width: 100%; /* Faz com que a imagem não exceda a largura do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+@media screen and (max-width: 1200px) {
+  .Imagem {
+      width: 70%;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .Imagem {
+      width: 55%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Imagem {
+      width: 35%;
+      top: -50px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .Imagem {
+      width: 20%;
+      top: -40px;
+  }
+}

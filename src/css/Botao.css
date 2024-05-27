@@ -1,0 +1,91 @@
+.yellow-button-login {
+    background-color: #f3cf00fb;
+    color: black;
+    font-size: 38px;
+    font-style: bold;
+    font-family: 'Roboto';
+    padding: 5px 55px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 470px;
+    top: -545px;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+}
+
+.yellow-button-login:hover {
+    background-color: #030300fd;
+    color: white;
+}
+
+.blue-button-signup {
+    background-color: #ff7057;
+    color: black;
+    font-size: 38px;
+    font-style: bold;
+    font-family: 'Roboto';
+    padding: 5px 25px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 730px;
+    top: -600px;
+    border-radius: 15px;
+    transition: color 0.3s;
+    z-index: 9999;
+}
+
+.blue-button-signup:hover {
+    color: white;
+    background-color: #030300fd;
+}
+
+.cad-link {
+    color: black;
+    font-size: 38px;
+    font-family: 'Roboto';
+    text-decoration: none;
+}
+
+.cad-link:hover {
+    color: white;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    .yellow-button-login,
+    .blue-button-signup {
+        font-size: 34px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -100px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .yellow-button-login,
+    .blue-button-signup {
+        font-size: 30px;
+        padding: 5px 40px;
+        top: -80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .yellow-button-login,
+    .blue-button-signup {
+        font-size: 26px;
+        padding: 5px 30px;
+        top: -60px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .yellow-button-login,
+    .blue-button-signup {
+        font-size: 22px;
+        padding: 5px 20px;
+        top: -40px;
+    }
+}

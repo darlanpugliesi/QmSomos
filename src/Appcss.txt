@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 3;
+}
+
+
+.textinho{
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(45px + 2vmin);
+  top: -720px;
+  left: 480px;
+  font-family: 'Roboto';
+  line-height: 0.5;
+  z-index: 50;
+}
+
+.Imagem{
+  position: relative;
+  top: -60px;
+  left: 68.5%;
+  z-index: 999;
+} 

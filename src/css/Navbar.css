@@ -1,0 +1,104 @@
+.navbar {
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3.75rem;
+  padding: 0 1.25rem; 
+  position: relative;
+  z-index: 2;
+  margin-bottom: 12.8125rem; 
+  box-shadow: 0.3125rem 0.3125rem 0.625rem 0px rgba(0, 0, 0, 0.3); /* 5px, 10px para rem */
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end; /* Alinha itens à direita */
+  flex-wrap: wrap; /* Permite quebra de linha */
+  width: 100%;
+}
+
+.nav-item {
+  margin-right: 1.875rem; /* 30px convertido para rem */
+  font-size: 1.5625rem; /* 25px convertido para rem */
+  font-weight: bold; /* Corrigido de 'font-style: bold' para 'font-weight: bold' */
+}
+
+.nav-link {
+  color: #000000;
+  text-decoration: none;
+  padding: 0.625rem; /* 10px convertido para rem */
+  border-radius: 1.875rem; /* 30px convertido para rem */
+  transition: 0.1s;
+}
+
+.nav-link:hover {
+  background-color: #141414;
+  color: #fff;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Media Queries para responsividade */
+
+@media (max-width: 1200px) {
+  .nav-item {
+    margin-right: 1.25rem; /* 20px convertido para rem */
+    font-size: 1.375rem; /* 22px convertido para rem */
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    flex-direction: column;
+    height: 60%;
+    padding: 0.625rem; /* 10px convertido para rem */
+  }
+  .nav-item {
+    margin-right: 0.625rem; /* 10px convertido para rem */
+    font-size: 1.25rem; /* 20px convertido para rem */
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+  .navbar-nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .navbar-nav.open {
+    display: flex;
+  }
+  .nav-item {
+    margin-right: 0; /* Remover margem à direita */
+    margin-bottom: 0.625rem; /* 10px convertido para rem */
+    font-size: 1.125rem; /* 18px convertido para rem */
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    margin-bottom: 6.25rem; /* 100px convertido para rem */
+  }
+  .nav-item {
+    font-size: 1rem; /* 16px convertido para rem */
+    margin: 0.3125rem 0; /* 5px convertido para rem */
+  }
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
