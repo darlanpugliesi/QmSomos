@@ -21,6 +21,9 @@ function Navbar() {
         <li className="nav-item">
           <Link to="/Comunidade" className="nav-link">Comunidade</Link>
         </li>
+        <li className="nav-item">
+          <Link to="/Perfil" className="nav-link">Perfil</Link>
+        </li>
       </ul>
     </nav>
   );

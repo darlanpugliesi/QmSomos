@@ -1,6 +1,9 @@
 import React from 'react';
 import '../css/login.css';
 import Imagem from './Imagem';
+import Loja from './Loja';
+import GoLoja from './WindowLoja';
+import { Link } from 'react-router-dom';  
 
 class Login extends React.Component {
   constructor(props) {
@@ -57,6 +60,7 @@ class Login extends React.Component {
   
   render() {
     return (
+      
       <div className='tudoo'>
         {/* <Imagem /> */}
         <br />
@@ -97,9 +101,10 @@ class Login extends React.Component {
         </a>    
         <br />
         <br />
-        <input className='form-submit' type="submit" value="Entrar" />
+        <Link to="/Loja"><input className='form-submit' type="submit" /> </Link>
       </form>
       </div>
+      
     );
   }
 }

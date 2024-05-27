@@ -1,0 +1,13 @@
+.perfil {
+    height: 1000px;
+}
+
+.container-upper {
+   position: relative;
+   bottom: 205px;
+}
+
+.fundo-upper {
+    width: 1000px;
+    max-height: auto;
+}

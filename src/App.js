@@ -14,6 +14,7 @@ import Home from './JS/Home.js'
 import Sobre from './JS/Sobre.js'
 import Loja from './JS/Loja.js'
 import Comunidade from './JS/Comunidade'
+import Perfil from './JS/Perfil'
 
 function App() {
   return (
@@ -27,11 +28,12 @@ function App() {
             <Route exact path="/" element={<Home/>} />
             <Route exact path="/Sobre" element={<Sobre/>} />
             <Route exact path="/Suporte" element={<BotaoSignUp/>} />
-            <Route exact path="/Comunidade" element={<BotaoSignUp/>} />
             <Route exact path="/cadastro" element={<Cadastro/>} />
             <Route exact path="/login" element={<Login/>} />
             <Route exact path="/loja" element={<Loja/>} />
+            <Route exact path="/Lojalogin" element={<Loja/>} />
             <Route exact path="/Comunidade" element={<Comunidade/>} />
+            <Route exact path="/Perfil" element={<Perfil/>} />
           </Routes>
         <Footer/>
         </Router>
