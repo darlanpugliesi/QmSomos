@@ -15,6 +15,7 @@ import Sobre from './JS/Sobre.js'
 import Loja from './JS/Loja.js'
 import Comunidade from './JS/Comunidade'
 import Perfil from './JS/Perfil'
+import Produto1 from './JS/Produto1'
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
             <Route exact path="/Lojalogin" element={<Loja/>} />
             <Route exact path="/Comunidade" element={<Comunidade/>} />
             <Route exact path="/Perfil" element={<Perfil/>} />
+            <Route exact path="/Produto1" element={<Produto1/>} />
           </Routes>
         <Footer/>
         </Router>

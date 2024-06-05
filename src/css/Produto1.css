@@ -1,0 +1,117 @@
+.product-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    left: 12%;
+    transform: translateY(-20%);
+
+  }
+  
+  .product-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: grey;
+  }
+  
+  .favorite-icon {
+    color: red;
+  }
+  
+  h1 {
+    font-size: 22px;
+    margin: 10px 0;
+  }
+  
+  .rating {
+    font-size: 18px;
+    color: #ffbf00;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .discounted-price {
+    color: red;
+    font-weight: bold;
+    font-size: 26px;
+  }
+  
+  .discount {
+    font-size: 16px;
+    color: grey;
+    margin-left: 10px;
+  }
+  
+  .installments {
+    font-size: 16px;
+    color: grey;
+  }
+  
+  .deal-button {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .payment-link {
+    display: block;
+    color: blue;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: 0.5;
+  }
+
+  .payment-link:hover {
+    text-decoration: underline;
+  }
+  
+  .product-details h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .product-details ul {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 2.5;
+  }
+  
+  .product-details ul li {
+    margin-bottom: 5px;
+  }
+  
+  .details-link {
+    display: block;
+    color: blue;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: 0.5;
+  }
+
+  .details-link:hover {
+    text-decoration: underline;
+  }
+  
+  .florzinha{
+    position: relative;
+    right: 190%;
+    height: 398.98px;
+    width: 450px;
+    transform: translateY(100%);
+  }
+
+  .produto{
+    height: 1100px;
+  }
+  

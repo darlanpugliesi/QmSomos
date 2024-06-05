@@ -4,7 +4,6 @@
 
 
 .color-title {
-    background-color:#fdb932;
     text-align: center;
     padding: 5px 10px 5px 10px;
     position: relative;
@@ -14,11 +13,12 @@
     height: 60px;
 }
 
-.titulo-page {
-    font-family: "Yeseva One", serif;
+.titulo-page {  
+    font-family: "verdana";
     position: relative;
-    bottom: 38px;
-    font-size: 55px;
+    bottom: 25px;
+    font-size: 50px;
+    font-weight: 500;
 }
 
 .setinha2 {
@@ -32,8 +32,7 @@
 }
 
 .Pedro {
-    background-color: #fdb932;
-    max-width: 60%;
+    max-width: 70%;
     margin: 0 auto;
     font-family: "Work Sans", sans-serif;
     white-space: nowrap ;
@@ -56,7 +55,7 @@
 .titulos1, .titulos2, .titulos3 {
     display: flex;
     flex-direction: row;
-    gap: 185px;
+    gap: 205px;
     position: relative;
     left: 170px;
     bottom: 40px;
@@ -66,15 +65,14 @@
 
 .imagem2 {
     background-color: white;
-    padding: 5px 5px 50px 5px;
-    border-radius: 10px;
+    padding: 15px 15px 60px 15px;
+
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .sub-titulos1 {
     display: flex;
     flex-direction: row;
-    gap: 104px;
     position: relative;
     left: 170px;
     bottom: 67px;
@@ -84,7 +82,6 @@
 .sub-titulos2 {
     display: flex;
     flex-direction: row;
-    gap: 90px;
     position: relative;
     left: 170px;
     bottom: 67px;
@@ -94,7 +91,6 @@
 .sub-titulos3 {
     display: flex;
     flex-direction: row;
-    gap: 122px;
     position: relative;
     left: 170px;
     bottom: 67px;
@@ -148,4 +144,12 @@
 .low-container {
     position: relative;
     bottom: 240px;
+}
+
+.sub-titulos1, .sub-titulos2, .sub-titulos3 {
+    gap: 130px;
+}
+
+.sub-titulos2, .sub-titulos3 {
+    gap: 90px;
 }
